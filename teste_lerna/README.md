@@ -1,0 +1,1 @@
+# Pequeno projeto para estudo do novo lerna v8.1.2

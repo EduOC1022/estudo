@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Eduardo Coelho",
+  "license": "ISC",
+  "main": "scr/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "directories": {
+    "lib": "src/lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduOC1022/estudo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/frontend.test.js",
+    "test:react": "react-scripts test",    
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "bugs": {
+    "url": "https://github.com/EduOC1022/estudo/issues"
+  },
+  "homepage": "https://github.com/EduOC1022/estudo#readme"
+}
